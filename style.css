@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville";
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(../illusso/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+body{
+    font: inherit;
+    font-family: Libre Baskerville !important;
+}
+.carousel-text h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+.carousel-text button{
+    background-color: white;
+    border-radius: 0;
+    padding: 13px;
+}
+.carousel-text p{
+    width: 70%;
+}
+.carousel-control-svg {
+    position: absolute;
+    top: 80%;
+    right: 2rem;
+    transform: translateY(-50%);
+    z-index: 5;
+    display: flex;
+    gap: 5px;
+  }
+  .carousel-item img{
+    height: 70vh;
+  }
+
+  .carousel-control-svg button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  #carousel-text-1{
+    display: none;
+  }
+
+  .carousel-text {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    z-index: 10;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  body {
+    font-size: 16px;
+  }
+  #navi-item{
+      text-decoration: underline;
+      text-underline-offset: 6px;
+  }
+  .feature-img-div img{
+    width: 100%;
+    height: 420px;
+  }
+  .fashion h1{
+    font-style: italic;
+
+  }
+  .fashion p{
+     width: 80%;
+  }
+  .fashion-img{
+    padding: 3px;
+  }
+  .fashion-img-1a{
+    height: 420px;
+    width: 90vw;
+
+  }
+  .fashion-img-2a,.fashion-img-2b{
+    margin-top: 10px;
+    width: 90vw;
+  }
+  .bestseller-set-1a-img{
+    width: 97%;
+  }
+  .footer-img{
+    width: 75%;
+  }
+  .footer-company{
+    margin-left: 15px;
+  }
+  .footer-company-btn{
+    padding: 3px;
+    border: none;
+    background-color: #A36937;
+    color: white;
+  }
+  footer{
+    background-color: #1B324F;
+    color: white;
+    padding: 10px;
+    margin-top: 2rem;
+  }
+  .footer-img{
+    background-color: white;
+  }
+  .getintouch-btn{
+    background-color: #A36937;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+  }
+  
+
+
+
+  @media (min-width: 768px) {
+    .carousel-text h1{
+        font-weight: 500;
+        font-size: 88px;
+    }
+    .carousel-text {
+        position: absolute;
+        top: 30%;
+        left: 7%;
+        z-index: 10;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+      #carousel-text-1{
+        display: block;
+      }
+      .carousel-text button{
+        background-color: white;
+        border-radius: 0;
+        padding: 13px 35px;
+    }
+    #content-1{
+      display: flex;
+    }
+    .carousel-item img{
+      height: 100vh;
+    }
+    #feature-img-div-3,#feature-img-div-4,#feature-img-div-2,#feature-img-div-1{
+      border: 1px solid #E3E3E3;
+    }
+    .feature-img-div img{
+      width: 100%;
+      height: 520px;
+    }
+    .fashion-img{
+      display: flex;
+      width: 100%;
+    }
+    .fashion p{
+      width: 60%;
+    }
+    .fashion-img-1{
+      width: 60%;
+      margin-right: 20px;
+    }
+    .fashion-img-1a{
+      margin-top: 10px;
+      width: 100%;
+      height: 725px;
+    }
+    .fashion-img-2{
+      width: 40%;
+    }
+    .fashion-img-2a{
+      width: 100%;
+      height: 602px;
+    }
+    .fashion-img-2b{
+      width: 100%;
+    }
+    .bestseller-set{
+      display: flex;
+    }
+    .bestseller-set-1{
+      display: flex;
+    }
+    .bestseller-set-1a-img{
+      width: 97%;
+    }
+    #footer-resources{
+      display: block !important;
+    }
+    .footer-img{
+      width: 100%;
+      
+    }
+    #footer-newsletter{
+      display: block !important;
+      background-color: white;
+      margin: 0 10px;
+      padding: 1rem;
+      width: 30%;
+      color: #1D1F1E;
+    }
+    .input{
+      color: 1px solid #E3E3E3;
+    }
+    .footer-newsletter-paragraph{
+      width: 70%;
+    }
+    .footer-box{
+      justify-content: space-between;
+    }
+   
+    
+  }
+  

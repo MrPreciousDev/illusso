@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville";
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(../illusso/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+body {
+    /* background-image: url('images/Rectangle\ 548.png');  */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+    font: inherit;
+    border-radius: 0;
+    font-family: Libre Baskerville !important;
+  }
+  .line-with-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .line-with-text::before,
+  .line-with-text::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid black;
+  }
+
+  .line-with-text::before {
+    margin-right: 10px;
+  }
+
+  .line-with-text::after {
+    margin-left: 10px;
+  }
+
+  .line-with-text span {
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+  .signIn{
+    background-color: white;
+    /* position: absolute;
+    top: 8%;
+    left: 40%; */
+    width: 100%;
+    padding: 2px;
+    
+    
+  }
+  .google,.Linkedln{
+   border: 1px solid #EADDD5;
+   background-color: white;
+   padding: 3px 6px;
+  }
+  .Facebook{
+    margin: 0 5px;
+    border: 1px solid #EADDD5;
+    background-color: white;
+    padding: 7px 17px;
+  }
+  .input{
+    border: 1px solid #0066FF;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .login-btn{
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #1B324F;
+    color: white;
+    border-radius: 4px;
+    border: none;
+  }
+
+  @media (min-width: 768px) {
+    .signIn{
+        background-color: white;
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        width: 35%;
+        
+      }
+      body {
+        background-image: url('images/Rectangle\ 548.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center;
+        height: 100vh; 
+        position: relative;
+        font: inherit;
+        border-radius: 0;
+        font-family: Libre Baskerville !important;
+      }
+      .google,.Linkedln{
+        border: 1px solid #EADDD5;
+        background-color: white;
+        padding: 3px 5px;
+       }
+       .Facebook{
+         margin: 0 5px;
+         border: 1px solid #EADDD5;
+         background-color: white;
+         padding: 3px 5px;
+       }
+       .input{
+        border: 1px solid #0066FF;
+        width: 100%;
+        padding: 8px 12px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+      }
+       .login-btn{
+        width: 100%;
+        padding: 8px 12px;
+        background-color: #1B324F;
+        color: white;
+        border-radius: 4px;
+        border: none;
+      }
+      .contain-btn{
+        width: 110px
+      }
+
+  }
+  @media (min-width: 868px) {
+    .google,.Linkedln{
+        padding: 7px 17px;
+       }
+       .Facebook{
+         padding: 7px 17px;
+       }
+
+  }
